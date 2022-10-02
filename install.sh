@@ -11,6 +11,10 @@ sudo apt autoremove
 
 sudo apt install discord thunar celluloid zsh
 
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt-get update
+sudo apt-get install neovim
+
 cd ~/.fonts && wget https://github.com/pavel/agave-code/raw/master/AgaveCode.ttf
 cd 
 
